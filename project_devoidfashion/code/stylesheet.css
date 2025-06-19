@@ -1,0 +1,404 @@
+p, h1, h2, h3 {
+  font-family: 'Times New Roman';
+}
+
+body {
+  background-color: rgb(31, 32, 34);
+  color: white;
+  zoom: 25%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* top of the page */
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    min-height: 100%;
+    gap: 30px;
+    padding: 50px;
+    font-family: 'Times New Roman';
+}
+
+.home {
+  font-size: 60px;
+  text-align: center;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.clickables {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.home:hover, .dropbtn:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(231, 230, 229);
+    scale: 115%;
+}
+
+.logo {
+  margin-left: 30px;
+  height: 270px;
+  padding-right: 30px;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  scale: 105%;
+  transition: 0.5s;
+  opacity: 70%;
+}
+
+.websitename {
+    font-size: 100px;
+    padding: 0px;
+    transition: 0.5s;
+    font-family: "Vampire Wars";
+    letter-spacing: 10px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 70px;
+  background-color: 
+  rgb(38, 39, 42);
+  color: white;
+  font-style: italic;
+  position: relative;
+  padding: 5px;
+}
+
+/* ~~~~~~~~~~~ page content ~~~~~~~~~~~ */
+
+.collabwithyuno {
+  height: 2000px;
+}
+
+.frontsuggestions {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
+.frontitem {
+  transition: 0.5s;
+  height: 1100px;
+}
+
+.frontitem:hover {
+  scale: 105%;
+  opacity: 95%;
+  cursor: pointer;
+}
+
+.frontdesc {
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.maintitle {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 500px;
+  font-family: "Vampire Wars";
+  letter-spacing: 20px;
+  font-style: italic;
+}
+
+.subtitle {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  font-style: italic;
+}
+
+
+.frontpagemodels {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 500px;
+  gap: 300px;
+}
+
+.models {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.shopfor {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Vampire Wars";
+  font-size: 80px;
+  font-style: italic;
+  transition: 0.5s;
+  border: none;
+  height: 1500px;
+}
+
+.shopfor:hover {
+  scale: 105%;
+  cursor: pointer;
+}
+
+.shoptext {
+  font-size: 120px;
+  font-family: "Times New Roman";
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* img desc */
+
+.desc {
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.othertitles {
+  font-family: "Vampire Wars";
+  font-size: 230px;
+  letter-spacing: 20px;
+  font-style: italic;
+}
+
+.newrel {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.hiker:hover {
+    transition: 0.5s;
+    opacity: 90%;
+    scale: 105%;
+    cursor: pointer;
+
+}
+
+.hoverforitems {
+  transition: 0.5s;
+}
+
+.hoverforitems:hover {
+  scale: 105%;
+  transition: 0.5s;
+  opacity: 95%;
+}
+
+/* womens clothes */
+
+.womensmodels {
+  padding: 400px;
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  height: 1800px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+/* mens clothes */
+
+.mensmodels {
+  padding: 400px;
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  height: 1800px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.clothingpagetitle {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  padding-top: 100px;
+  font-family: "Vampire Wars";
+  letter-spacing: 7px;
+}
+
+/* ~~~~ jeg skal bare bruke samme greie som forsiden. */ 
+
+/* non apparel */
+
+
+/* about us page */
+
+.maintitleabout {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 170px;
+  font-family: "Vampire Wars";
+  letter-spacing: 10px;
+}
+
+.aboutabout {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  padding-left: 500px;
+  padding-right: 1000px;
+  flex-direction: column;
+}
+
+.aboutabouttext {
+  text-align: left;
+  letter-spacing: 4px;
+}
+
+.aboutusmodels {
+  height: 1800px;
+  display: flex;
+  padding: 100px;
+  align-self: center;
+}
+
+/* the cart */
+
+.item {
+  transition: 0.5s;
+}
+
+.item:hover {
+  scale: 105%;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.maincontent {
+display: flex;
+justify-content: center;
+height: 1200px;
+}
+
+.thecart {
+font-size: 320%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.bag {
+height: 110px;
+width: auto;
+display: center;
+justify-content: center;
+align-items: center;
+}
+
+.emptycart {
+font-size: 60px;
+padding: 50px;
+justify-content: center;
+flex-direction: column;
+justify-self: center;
+display: flex;
+}
+
+.backhome {
+border: 0;
+background-color: black;
+color: white;
+font-size: 70px;
+text-align: center;
+cursor: pointer;
+font-style: italic;
+font-family: "Vampire Wars";
+padding: 50px;
+transition: 0.5s;
+}
+
+.backhome:hover {
+scale: 105%;
+background-color: white;
+color: black;
+transition: 0.5s;
+}
+
+.websitename:hover {
+scale: 105%;
+color: rgb(177, 177, 177);
+transition: 0.5s;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
+.item {
+  display: flex;
+  width: 700px;
+  transition: 0.5s;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.pageflipper {
+  font-size: 70px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  height: 600px;
+}
+
+.footeralt {
+  background-color: rgb(16, 16, 16);
+  height: 130px;
+  padding: 30px;
+  font-size: 50px;
+  align-items: center;
+  color: rgb(139, 139, 139);
+}
