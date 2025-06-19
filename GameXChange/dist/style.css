@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(67, 139, 33, 0.815);    
+    font-family:fantasy;
+    width: 960px;
+    margin: auto;
+}
+
+.prod > *  {
+    margin-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.red {
+    color: red;
+    font-size: 200%;
+    border: 2px solid red;
+    text-align: center;
+    background-color: lightcoral;
+    margin-bottom: -50px;
+}
+
+.prod img {
+    float: left;
+}
+
+h1 {
+    color: darkred;
+}
+
+
+img  {
+       width: 80;
+
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} h3 {
+    color: white;
+    font-family: cursive;
+}
+
+/* 
+.prod {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+flex: 1;
+ */
+
+a {
+    background-color: lightcoral;
+    color: green;
+}
+
+.home {
+    width: 1000;
+
+}
+
+#links {
+    background-color: white;
+    size: 200%;
+    max-width: 1000px;
+    min-width: 1000px;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 4%;
+}
+/* }#links {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: auto;
+    text-align: center;
+    border-radius: 4%;
+} */
+
+ h1 {
+    color: rgba(250, 38, 38, 0.767);
+    font-size: 100px;
+    font-family:Impact !important;
+}
+
+img {
+    width: 80%;
+}
+
+
+
+
+#red {
+    color: red;
+    font-size: 210%;
+    border: 1px solid red;
+    text-align: center;
+    background-color: lightcoral;
+    margin-bottom: -50px;
+}

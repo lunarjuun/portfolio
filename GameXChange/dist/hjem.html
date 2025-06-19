@@ -1,0 +1,40 @@
+<font color="red" size="60">Velkommen til GameXChange</font>
+<center>
+    <img src="banner2.png" class="herobilde"> <!--  -->
+</center>
+<h2 style="margin-top: -50px;">Velkommen til GameXchange.no!</h2>
+<marquee behavior="" direction="">
+    <h3>Ditt nettsted for kjøp og salg av brukte spill! </h3>
+</marquee>
+<div id="links" style="position: auto; bottom:0; margin-top: 200px;">
+    <a style="margin-right: 10px" href="">Hjem (du er her)</a><a style="margin-right: 10px"
+        href="høydepunkter.html">Høydepunkter</a><a style="margin-right: 10px" href="login.html">Kjøp</a><a
+        style="margin-right: 10px" href="Ny kunde? Registrer her"></a><astyle="margin-right: 10px" href="omoss.htm1">Om
+        oss og kontakt</a><a href="allproducts.html">Alle produkter</a>
+        <div onclick="darkmode()">darkmode()</div>
+</div>
+
+<h2>Dagbok</h2>
+<marquee behavior="" direction="">SKriv en hilsen!</marquee>
+<form id="comment-form">
+    <input type="text" id="comment" />
+    <button type="submit">Send</button>
+</form>
+<div id="comment-section"></div>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script>
+    function darkmode() {
+        /* funker ikke :() */
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+    document.getElementById('comment-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const input = document.getElementById('comment').value;
+        document.getElementById('comment-section').innerHTML += `<p>${input}</p>`;
+    });
+
+</script>
