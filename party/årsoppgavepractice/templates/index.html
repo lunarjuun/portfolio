@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Play Blackjack</title>
+</head>
+<body class="indexPage">
+    <img src="{{ url_for('static', filename='media/dealer/har1.gif') }}" alt="A gif of the dealer from a previous project." id="toggleImage">
+
+    <div class="topText">
+        <h1> Play Blackjack </h1>
+        <p class="topP"> Web-server version of Blackjack. </p>
+    </div>
+        <p style="font-size: 1.7rem;"> By Dominic 2IMB </p>
+    <div class="container">
+    <a href="/blackjack" class="playGame" onclick="window.location.href='/blackjack'">PLAY GAME</a>
+        </div>
+
+<footer>
+    <a href="/howtoplay" class="indexFooter" onclick="window.location.href='/howtoplay'">How To Play</a>
+</footer>
+
+
+</body>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>

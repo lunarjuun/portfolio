@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='blackjack.css') }}">
+
+</head>
+
+<body class="bg">
+
+        <img src="../static/media/dealer/annoying-dealer.png" class="harley" alt="Drawn image of the dealer.">
+
+    <div class="game-window">
+        <h2 class="players">Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards" class="dealercards">
+            <img id="hidden" src="../static/media/cards/BACK.png" alt="The Hole card.">
+        </div>
+
+        <h2 class="players"> You: <span id="your-sum"></span></h2>
+        <div id="your-cards" class="yourcards"></div>
+        <div class="moneys">
+            <h3>Your Money: </h3>
+            <h3 id="myMoney"></h3>
+        </div>
+        
+        <form id="betForm">
+            <input type="number" id="betAmount" placeholder="Insert Desired Bet" min="1">
+            <input type="submit" value="placeBet">
+        </form>
+
+        <div class="gameButtons">
+            <button id="hit" aria-label="Hit">Hit</button>
+            <button id="stay" aria-label="Stay">Stay</button>
+        </div>
+        <p id="results"></p>
+        <button id="playAgain" class="playagain">Play Again?</button>
+    </div>
+
+    <div class="botHalf">
+
+            <div class="submitScore">
+                <form action="/save_score" method="post" id="submitScore">
+                    <input type="text" id="name" placeholder="Name" name="name" required aria-label="">
+                    <input type="text" id="score" placeholder="Score" name="score" required>
+                    <button type="submit">Save score</button>
+                </form>
+</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='blackjack.js') }}"></script>
+
+
+</body>
+
+</html>

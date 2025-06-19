@@ -1,0 +1,119 @@
+body {
+    background-image: url("media/blackjack_media/casino-bokeh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom: 90%;
+}
+
+.indexFooter {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 4px 4px 10px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttongame {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'times new roman';
+    margin-top: 5px;
+    text-shadow: 8px 8px 30px;
+    margin-bottom: 0px;
+}
+
+p {
+    text-shadow: 4px 4px 10px;
+    font-weight: bold;
+}
+
+.indexPage {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.playGame {
+    margin-top: auto;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
+    cursor: pointer;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'times new roman';
+    text-shadow: 8px 8px 30px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 4px 4px 10px;
+}
+
+.topText {
+    padding-bottom: 30px;
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding-top: 30px;
+    box-shadow: 4px 4px 10px;
+}
+
+.topP {
+    font-size: 30px;
+}
+
+#toggleImage {
+    height: 15rem;
+    padding-top: 50px;
+}
+
+.buttonconfetti {
+    opacity: 0%;
+    background-color: black;
+}
+
+.buttonconfetti:hover {
+    opacity: 100%;
+}
+
+/* ///////////// MEDIA QUERIES //////////// */
+
+@media all and (max-width: 600px) {
+
+    .indexPage {
+        align-items: center;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 15rem;
+    }
+
+}

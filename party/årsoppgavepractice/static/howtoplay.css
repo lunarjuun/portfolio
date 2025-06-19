@@ -1,0 +1,24 @@
+body {
+    background-image: url("../static/media/blackjack_media/casino-background.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+    scale: 90%;
+}
+
+.htpContainer {
+    max-width: 90vh;
+    background-color: rgb(146, 109, 96);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
