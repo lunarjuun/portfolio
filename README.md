@@ -9,3 +9,9 @@ A week-long project from my second year of high school where I redesigned the ap
 
 ### Blackjack
 My exam turn-in was a simple Blackjack game where I showed all my capabilities. The game's code is open source, but the HTML, SQL, Python and CSS are all written and configured by me, as well as the external database that saves the player's name and score.
+
+### My Website
+A small, personal portfolio.
+
+### Devoid Fashion
+A hypothetical shop website I made for a made-up brand.
